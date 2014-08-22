@@ -1,4 +1,4 @@
-# BEMSimpleLineGraph - Feature Branch
+# BEMSimpleLineGraph - Überfeature Branch
 <p align = right><a target="_blank" href="https://twitter.com/intent/tweet?hashtags=iosdev&original_referer=https%3A%2F%2Fabout.twitter.com%2Fresources%2Fbuttons&text=BEMSimpleLineGraph,%20beautiful%20graphs%20for%20iOS!%20Open%20Source%20Library%20on%20GitHub&tw_p=tweetbutton&url=http%3A%2F%2Fgoo.gl%2FzgB6GL&via=Boris_Em"><img src="http://s30.postimg.org/j2q6ql27h/Tweet.png"></a>
 <a target="_blank" href="https://twitter.com/Boris_Em"> <img src="http://s29.postimg.org/avb82kvv7/Follow_Twitter.png"></a>
 </p>
@@ -8,16 +8,24 @@
 <b>BEMSimpleLineGraph</b> makes it easy to create and customize line graphs for iOS.
 </p>
 
-## Feature Branch Warning
-You are currently viewing the feature branch of this GitHub repository. The feature branch contains **alpha and beta** commits / features. Content in this branch may be unstable, bug-ridden, non-working, and undocumented. The sole purpose of this branch is to test and improve on new features that may or may not be included in future (stable) versions.
-
-It is not recommended that you use this branch in a production app of any kind. **For stable production ready code**, please use to the [master branch](https://github.com/Boris-Em/BEMSimpleLineGraph/tree/master).
-
 **BEMSimpleLineGraph** is a charting library that makes it easy to create beautiful line graphs for iOS. It is easy to set-up and to use in any iOS Project. It's focused on highly customizable and interactive line graphs. Plus, it is lightweight and can be integrated in minutes (maybe even seconds). 
 
 **BEMSimpleLineGraph's** implementation, data source, and delgate are all modeled off of UITableView and UICollectionView. If you're familiar with using a UITableView, UITableViewController, or UICollectionView, using BEMSimpleLineGraph should be a breeze!
 
 The full documentation of the project is available on its [wiki.](https://github.com/Boris-Em/BEMSimpleLineGraph/wiki)
+
+***
+
+## Überfeature Branch Warning
+You are currently viewing the überfeature branch of this GitHub repository.
+
+The überfeature branch is built using Xcode 6.0 beta, iOS 8 beta, and OS X Yosemite beta. The goal of this branch is to begin implementing new APIs and beta features from iOS 8 and OS X 10.10. Additionally, this branch is used to implement large breaking & major changes.
+
+This branch contains *super-duper* bleeding edge commits / features. Content in this branch may be unstable, bug-ridden, non-working, and undocumented. The sole purpose of this branch is to test and create new features that may or may not be included in the feature branch.
+
+This branch is for experimentation and should **never** be used in a production app of any kind. **For stable production ready code**, please refer to the [master branch](https://github.com/Boris-Em/BEMSimpleLineGraph/tree/master). **For upcoming features and beta / alpha code**, please refer to the [feature branch](https://github.com/Boris-Em/BEMSimpleLineGraph/tree/feature).
+
+***
 
 ## Table of Contents
 
