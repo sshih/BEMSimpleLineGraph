@@ -259,13 +259,14 @@ IB_DESIGNABLE @interface BEMSimpleLineGraphView : UIView <UIGestureRecognizerDel
  @param graph The graph object requesting the total number of points.
  @return The total number of points in the line graph. */
 - (NSInteger)numberOfPointsInLineGraph:(BEMSimpleLineGraphView *)graph;
-
+// - (NSInteger)numberOfPointsForLine:(BEMLine *)line lineGraph:(BEMSimpleLineGraphView *)graph;
 
 /** The vertical position for a point at the given index. It corresponds to the Y-axis value of the Graph.
  @param graph The graph object requesting the point value.
  @param index The index from left to right of a given point (X-axis). The first value for the index is 0.
  @return The Y-axis value at a given index. */
 - (CGFloat)lineGraph:(BEMSimpleLineGraphView *)graph valueForPointAtIndex:(NSInteger)index;
+// - (CGFloat)lineGraph:(BEMSimpleLineGraphView *)graph valueForPointAtIndex:(NSInteger)index line:(BEMLine *)line;
 
 
 @optional
@@ -312,6 +313,7 @@ IB_DESIGNABLE @interface BEMSimpleLineGraphView : UIView <UIGestureRecognizerDel
  @param graph The graph object requesting the total number of points.
  @return The suffix to append to the popup report. */
 - (NSString *)popUpSuffixForlineGraph:(BEMSimpleLineGraphView *)graph;
+// - (NSString *)popUpSuffixForLine:(BEMLine *)line lineGraph:(BEMSimpleLineGraphView *)graph;
 
 /** Optional method to always display some of the pop up labels on the graph.
  @see alwaysDisplayPopUpLabels must be set to YES for this method to have any affect.
@@ -319,6 +321,7 @@ IB_DESIGNABLE @interface BEMSimpleLineGraphView : UIView <UIGestureRecognizerDel
  @param index The index from left to right of the points on the graph. The first value for the index is 0.
  @return Return YES if you want the popup label to be displayed for this index. */
 - (BOOL)lineGraph:(BEMSimpleLineGraphView *)graph alwaysDisplayPopUpAtIndex:(CGFloat)index;
+// - (BOOL)lineGraph:(BEMSimpleLineGraphView *)graph alwaysDisplayPopUpAtIndex:(CGFloat)index line:(BEMLine *)line;
 
 /** Optional method to set the maximum value of the Y-Axis. If not implemented, the maximum value will be the biggest point of the graph.
  @param graph The graph object requesting the maximum value.
