@@ -295,6 +295,11 @@
 - (NSString *)lineGraph:(BEMSimpleLineGraphView *)graph labelOnXAxisForIndex:(NSInteger)index;
 
 
+//TODO: UPDATE HERE FOR POD
+
+//------- Y AXIS -------//
+- (NSString *)lineGraph:(BEMSimpleLineGraphView *)graph labelOnYAxisForIndex:(NSInteger)index;
+
 @end
 
 
@@ -344,6 +349,10 @@
  @param graph The graph object requesting the minimum value.
  @return The minimum value of the Y-Axis. */
 - (CGFloat)minValueForLineGraph:(BEMSimpleLineGraphView *)graph;
+
+
+//TODO: UPDATE FOR POD
+- (UIColor *)customColorForDotPoints:(BEMSimpleLineGraphView *)graph colorForPointAtIndex:(NSInteger) index;
 
 
 //----- TOUCH EVENTS -----//

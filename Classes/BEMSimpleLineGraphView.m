@@ -352,6 +352,7 @@
             circleDot.alpha = 0;
             circleDot.absoluteValue = dotValue;
             circleDot.Pointcolor = self.colorPoint;
+            circleDot.Pointcolor  = [self.delegate customColorForDotPoints:self colorForPointAtIndex:i];
             
             [yAxisValues addObject:[NSNumber numberWithFloat:positionOnYAxis]];
             
@@ -652,15 +653,21 @@
         
         CGFloat graphHeight = self.frame.size.height;
         CGFloat graphSpacing = (graphHeight - self.XAxisLabelYOffset) / numberOfLabels;
+        NSInteger graphValueIncrement = [self maxValue] / numberOfLabels;
         
         CGFloat yAxisPosition = graphHeight - self.XAxisLabelYOffset + graphSpacing/2;
+         NSInteger yAxisValue = 0;
         
         for (NSInteger i = numberOfLabels; i > 0; i--) {
             yAxisPosition -= graphSpacing;
+            yAxisValue += graphValueIncrement;
             
             UILabel *labelYAxis = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.YAxisLabelXOffset - 5, 10)];
             labelYAxis.center = CGPointMake(self.YAxisLabelXOffset/2, yAxisPosition);
             labelYAxis.text = [NSString stringWithFormat:@"%i", (int)(graphHeight - self.XAxisLabelYOffset - yAxisPosition)];
+            
+            labelYAxis.text = [self.dataSource lineGraph:self labelOnYAxisForIndex:(int)yAxisValue];
+            
             labelYAxis.font = self.labelFont;
             labelYAxis.textAlignment = NSTextAlignmentRight;
             labelYAxis.textColor = self.colorYaxisLabel;

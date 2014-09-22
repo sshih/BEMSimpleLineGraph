@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>F1F15B84-6620-4046-8D91-529CC20CD7C2</string>
+	<string>C0E419DA-7202-466C-94D5-7322638BB506</string>
 	<key>IDESourceControlProjectName</key>
 	<string>SimpleLineChart</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>0A440630-CD17-4098-B4B4-CB6D9CEA2228</key>
-		<string>https://github.com/Boris-Em/BEMSimpleLineGraph.git</string>
+		<key>F7717941-B854-47B1-BF60-FB54F64931EF</key>
+		<string>https://github.com/sshih/BEMSimpleLineGraph.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Sample Project/SimpleLineChart.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>0A440630-CD17-4098-B4B4-CB6D9CEA2228</key>
+		<key>F7717941-B854-47B1-BF60-FB54F64931EF</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/Boris-Em/BEMSimpleLineGraph.git</string>
+	<string>https://github.com/sshih/BEMSimpleLineGraph.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>0A440630-CD17-4098-B4B4-CB6D9CEA2228</string>
+	<string>F7717941-B854-47B1-BF60-FB54F64931EF</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>0A440630-CD17-4098-B4B4-CB6D9CEA2228</string>
+			<string>F7717941-B854-47B1-BF60-FB54F64931EF</string>
 			<key>IDESourceControlWCCName</key>
 			<string>BEMSimpleLineGraph</string>
 		</dict>
